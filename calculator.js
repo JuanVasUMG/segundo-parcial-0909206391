@@ -19,3 +19,31 @@ function pulsada (tecla) {
     
 }
 
+function erase_num(){
+    //Funcion Borrar un caracter
+    var last = document.getElementById("operation").value;
+    var new_val = last.substring(0, last.length-1);
+
+    document.getElementById("operation").value = new_val;
+}
+
+function sin(n1){
+    //Funcion del seno de un numero
+    r = Math.sin(n1);
+    return r;
+}
+
+function cos(n1){
+    //Funcion del coseno de un numero
+    r = Math.cos(n1);
+    return r;
+}
+
+function tan(n1){
+    //Funcion del tangente de un numero
+    r = Math.tan(n1);
+    return r;
+}
+
+
+
