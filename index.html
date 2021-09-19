@@ -89,6 +89,33 @@
         </div>
     </form>
 
+    <!--Agregamos un Modal con Bootstrap-->
+    <div class="btn-fila">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Datos del alumno
+        </button>
+    </div>
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Datos del Alumno</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Carné: <b>0909-20-6391</b>
+                    <br>Nombre completo: <b>Juan Luis Vasquez Lopez</b>
+                    <br>Fecha y hora de finalizacion: <b>18/09/2021 - 21:16</b>
+                    <br>Nota esperada segun rendimiento: <b>18 pts.</b>
+                </p>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
     <!--Importamos el documento JS-->
     <script src="calculator.js"></script>
 </body>
