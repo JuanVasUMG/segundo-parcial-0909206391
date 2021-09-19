@@ -45,5 +45,29 @@ function tan(n1){
     return r;
 }
 
+function log(n1){
+    //Funcion de Logarritmo de un numero
+    r = Math.log(n1);
+    return r;
+}
+
+function pow(n1, n2){
+    //Funcion de Potencia
+    r = Math.pow(n1, n2);
+    return r;
+}
+
+function raiz(n1){
+    //Funcion de raiz cuadrada
+    r = Math.sqrt(n1);
+    return r;
+}
+
+function prc(n1, n2){
+    //Funcion de Potencia
+    r = ((n1/100)*n2);
+    return r;
+}
+
 
 
